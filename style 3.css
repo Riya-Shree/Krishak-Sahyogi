@@ -1,0 +1,93 @@
+body{
+    width: 100%;
+}
+#head1{
+    flex-wrap: wrap;
+    text-align: center;
+}
+#navbar {
+    flex-direction: column; 
+}
+#side_button{
+    flex-direction: column;
+}
+#home_content{
+    height: 700px;
+    padding: 3px 28px;
+    
+}
+#heading_content{
+    flex-wrap: wrap;
+    font-size: 26px;
+    justify-content: space-between;
+}
+#banner{
+    height: 570px;
+    padding: 3px 28px;
+    flex-wrap: wrap;
+   
+}
+#banner::before{
+    height: 600px;
+}
+#banner_head{
+    
+    text-align: center;
+    
+}
+#para1{
+    align-items: center;
+}
+#orange{
+    flex-wrap: wrap;
+}
+#wallet{
+    display: flex;
+    justify-content: center;
+}
+.box_head{
+    display: flex;
+    justify-content: center;
+}
+#box_div1{
+    color: yellow;
+}
+.middle{
+    flex-wrap: wrap;
+}
+.chart2{
+    flex-wrap: wrap;
+    height: fit-content;
+}
+.doughnut{
+    width: fit-content;
+}
+.chart{
+    margin-left: 0;
+    width: 420;
+}
+.container1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .slider-box, .content-box {
+    flex-wrap: wrap;
+    padding: 20px 0;
+    font-size: 23px;
+  }
+#commitments{
+    flex-direction: column;
+
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.commitments-col-1{
+    flex-basis: 65%;
+}
+.commitments-col-1 img{
+    flex-direction: column;
+    align-items: center;
+    
+}
